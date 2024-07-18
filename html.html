@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <title>Home Page</title>
+</head>
+
+<body>
+
+  <!-- Тег -->
+
+ <p>
+  Task 1
+ </p>
+
+ <hr>
+
+  <!-- Класс -->
+
+ <p class="text2">
+  Task 2
+ </p>
+
+ <hr>
+
+  <!-- ID -->
+
+ <p id="text3">
+  Task 3
+ </p>
+
+ <hr>
+
+  <!-- Атрибут -->
+
+ <input type="text" placeholder="Task 4">
+
+ <hr>
+
+  <!-- Вложенные селекторы -->
+
+ <div>
+  <p> Task 5. It's inside the div, styled. </p>
+  <h1> It's inside the div as well, styled.</h1>
+  <h2> It's inside the div as well, but not styled.</h2>
+ </div>
+
+ <hr>
+
+ <!-- Дочерние селекторы -->
+
+ <div>
+  <ul> 
+    <il>Task 6. It's inside the div only, so styled.</il>
+  </ul>
+  <section>
+    <ul> 
+      <il>It's inside the div AND inside the section, so not styled.</il> 
+    </ul>
+  </section>
+ </div>
+
+ <hr> 
+
+ <!-- Последовательность селекторов -->
+
+ <div>
+  <h3> Task 7 </h3>
+  <pre> This is styled by h3+p </pre>
+  <pre> This is not styled </pre>
+ </div>
+
+ <hr>
+
+ <!-- Разные комбинации -->
+
+ <div>
+  <h4> Task 8 </h4>
+  <pre> This is not styled </pre>
+  <pre> This is styled by h4+pre+pre </pre>
+  <h5 class="h5"> This is styled by class</h5>
+  <span id="span">Span</span>
+  <p>After span so styled</p>
+  <p>After span so styled</p>
+  <p>After span so styled</p>
+  <p>After span so styled</p>
+  <p>After span so styled</p>
+ </div>
+ 
+
+</body>
+
