@@ -1,0 +1,62 @@
+p {
+  color:blueviolet;
+}
+
+.text2 {
+  color:orange;
+}
+
+#text3 {
+  color:green;
+}
+
+input[type=text] {
+  color:brown;
+  width:194px;
+  border-color:black;
+  border-style:double;
+}
+
+::placeholder {
+  color: red;
+}
+
+div {
+  margin:5px;
+  padding:5px;
+}
+
+div p {
+  color:blue;
+}
+
+div h1 {
+  color:pink;
+  font-family:fantasy;
+}
+
+div > ul {
+  color:gray;
+  font-weight: bold;
+  font-size:25px;
+}
+
+h3 + pre {
+  color: blue;
+}
+
+h4+pre+pre {
+  color: aqua;
+}
+
+.h5 {
+  font-size:133px;
+}
+
+#span {
+  text-decoration:line-through;
+}
+
+span ~ p {
+  color: rgb(67, 229, 80);
+}
